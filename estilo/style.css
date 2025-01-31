@@ -41,3 +41,22 @@ iframe#tela {
     width: 263px;
     height: 464px;
 }
+
+section#logos {
+    text-align: right;
+}
+
+section#logos img {
+    width: 40px;
+    margin: 3px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.705);
+    box-sizing: border-box;
+}
+
+section#logos img:hover {
+    border: 1px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.87);
+    transition: transform 0.3s, border 0.6s;
+}
